@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img{
+          height: 250px;
+          width: 200px;
+      }
+      /* @media screen and (min-width:0px) and (max-width:425px) {
+          .ro,.mb{
+              display: none;
+          }
+
+      }
+      @media screen and (min-width:426px) and (max-width:725px) {
+          .ms,.mb{
+              display: none;
+          }
+
+      }
+      @media screen and (min-width:726px) and (max-width:1000px) {
+          .ro,.ms{
+              display: none;
+          }
+
+      } */
+      .diva{
+
+          display: flex;
+          /* background-color:blue; */
+          gap: 10px;
+          padding: 10px;
+          flex-wrap: wrap;
+      }
+      .div1{
+          border: 2px solid;
+          height:400px;
+          width: 200px;
+          background-color: aqua;
+        }
+       @media screen and (orientation:portrait) {
+          body{
+              background-color: blueviolet;
+          }
+          .diva{
+          display: flex;
+          /* background-color:blue; */
+          gap: 20px;
+          padding: 20px;
+          flex-wrap: wrap;
+      }
+      @media screen and (orientation:landscape) {
+          body{
+              background-color: brown;
+          }
+          .diva{
+          display: flex;
+          /* background-color:blue; */
+          gap: 20px;
+          padding: 20px;
+          flex-wrap: wrap;
+          }
+        }
+
+
+
+      .m{
+         background-color: white;
+      }
+      ::-webkit-scrollbar{
+        display:none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="diva">
+      <div class="div1">
+        <div>
+          <img
+            class="ms"
+            src="https://tse4.mm.bing.net/th?id=OIP.TAT7Zh86ozYuVCvqgnDf3AHaI9&pid=Api&P=0&h=180"
+            alt=""
+          />
+        </div>
+
+        <div>
+          <p class="m">Messi</p>
+        </div>
+        <div style="height: 100px; overflow-y: scroll; background-color: white">
+          <p>
+            Leo Messi, is an Argentine professional footballer who plays as a
+            forward for and captains both Major League Soccer club Inter Miami
+            and the Argentina national team. Widely regarded as one of the
+            greatest players of all time, Messi set numerous records for
+            individual accolades won throughout his professional footballing
+            career such as eight Ballon d'Or awards and eight times being named
+            the world's best player by FIFA.[note 2]
+          </p>
+        </div>
+      </div>
+      <div class="div1">
+        <div>
+          <img
+            class="ro"
+            src="https://tse1.mm.bing.net/th?id=OIP.nMIr-nB5v0rbPzWEJzeZcQHaE7&pid=Api&P=0&h=180"
+            alt=""
+          />
+        </div>
+        <div><p class="m">Ronaldo</p></div>
+
+        <div style="height: 100px; overflow-y: scroll; background-color: white">
+          <p>
+            Portuguese professional footballer who plays as a forward for and
+            captains both Saudi Pro League club Al Nassr and the Portugal
+            national team. Widely regarded as one of the greatest players of all
+            time, Ronaldo has won numerous individual accolades throughout his
+            career, such as five Ballon d'Or awards, a record three UEFA Men's
+            Player of the Year Awards, four European Golden Shoes, and was named
+            five times the world's best player by FIFA,[note 3]
+          </p>
+        </div>
+      </div>
+
+      <div class="div1">
+        <div>
+          <img
+            class="mb"
+            src="https://colunabarcelona.com/wp-content/uploads/2019/12/mbappe-league-one.jpg"
+            alt=""
+          />
+        </div>
+        <div>
+          <p class="m">Mbappe</p>
+        </div>
+        <div style="height: 100px; overflow-y: scroll; background-color: white">
+          <p>
+            Kylian Mbappé Lottin (born 20 December 1998) is a French
+            professional footballer who plays as a forward for La Liga club Real
+            Madrid and captains the France national team. Widely regarded as one
+            of the best players in the world, he is known for his dribbling,
+            finishing, and speed.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
